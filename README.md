@@ -79,7 +79,7 @@ options:
 ## 📃 License
 This project is licensed under the GNU GPL v3 License - see the [LICENSE](LICENSE) file for more details.
 
-<a name="acknowledgments"/>
+<a name="acknowledgements"/>
 
 ## 🙏 Acknowledgements
 Thanks to Patrick Gillespie for creating the ASCII text art tool used in this project
