@@ -38,13 +38,14 @@
 3. 📃 [License](#license)
 4. 🙏 [Acknowledgements](#acknowledgements)
 
+<a name="installation"/>
 ## 💻 Installation
 Clone this repository
 ```
 git clone https://github.com/samuelchristlie/ObfusPy
 cd ObfusPy
 ```
-
+<a name="usage"/>
 ## ▶ Usage
 To run **ObfusPy** on the current folder (i.e. example.py)
 ```
@@ -71,9 +72,11 @@ options:
               If none given, current folder will be used
 
 ```
+<a name="license"/>
 ## 📃 License
 This project is licensed under the GNU GPL v3 License - see the [LICENSE](LICENSE) file for more details.
 
+<a name="acknowledgments"/>
 ## 🙏 Acknowledgements
 Thanks to Patrick Gillespie for creating the ASCII text art tool used in this project
 https://patorjk.com/software/taag/
