@@ -21,7 +21,6 @@
 ![github last commit badge](https://badgen.net/github/last-commit/samuelchristlie/ObfusPy?icon=github)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-[github stars link]: https://github.com/invoke-ai/InvokeAI/stargazers
 </div>
 
 **ObfusPy** is a blazing fast obfuscator for Python, making it more challenging to read the source code. **ObfusPy** is designed to be reliable and suitable for almost every kind of code. Please note that the obfuscated file can still be decrypted as the key included in the file. For better protection, it is recommended to use tools like [PyArmor](https://github.com/dashingsoft/pyarmor) instead.
