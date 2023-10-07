@@ -20,13 +20,13 @@ def encryptFiles(folder=".", clone=False):
 				theFile = os.path.join(root, filename)
 				print(f"[#] Processing {theFile}...")
 
-				with open(theFile, "r", encoding="utf=8") as file:
+				with open(theFile, "r", encoding="utf-8") as file:
 					encrypted = cipher.encrypt(file.read().encode("utf-8"))
 
 				if clone:
 					theFile = theFile.replace(folder, newFolder)
 
-				with open(theFile, "w", encoding="utf=8") as file:
+				with open(theFile, "w", encoding="utf-8") as file:
 					file.write("from cryptography.fernet import Fernet\n")
 					file.write(f"\n")
 					file.write(f"key = {key}\n")
