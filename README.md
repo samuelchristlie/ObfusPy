@@ -56,7 +56,7 @@ python obfus.py
 You can also use `--help` to see the available options
 
 ```
-usage: obfus.py [-h] [-i I]
+usage: obfus.py [-h] [-i I] [-c]
 
    ____  __    ____           ____
   / __ \/ /_  / __/_  _______/ __ \__  __
@@ -71,8 +71,10 @@ usage: obfus.py [-h] [-i I]
 options:
   -h, --help  show this help message and exit
   -i I        Folder to be encrypted.
-              If none given, current folder will be used
-
+              If none given, current folder will be used.
+  -c          Clone files.
+              Create a clone of the folder instead of replacing it.
+              
 ```
 <a name="license"/>
 
